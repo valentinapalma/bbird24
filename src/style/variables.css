@@ -1,0 +1,15 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --primary-color: #FFEAD1;
+    --primary-color-dark: #653E2F;
+    --primary-color-darker: #212121;
+    --primary-color-light: #FBA92C;
+    --primary-color-lighter: #FFEAD1;
+    --primary-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Lora', serif;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-bold: 500;
+    --fw-bolder: 700;
+  }
