@@ -1,13 +1,13 @@
-function Home() {
+function Applicants() {
     return (
       <div className="container">
         <div className="row">
             <div className="col">
-                <h1>Blackbird Recruitment</h1>
+                <h1>Applicants</h1>
             </div>
         </div>
       </div>
     );
   }
-  
-  export default Home;
+
+  export default Applicants;
