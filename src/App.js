@@ -4,18 +4,22 @@ import Applicants from './pages/Applicants';
 import Employers from './pages/Employers';
 import Services from './pages/Services';
 import AboutUs from "./pages/AboutUs";
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <Routes>
-        <Route path="/" element={ <Home /> } />
-        <Route path="applicants" element={ <Applicants /> } />
-        <Route path="aboutus" element={ <AboutUs /> } /> 
-        <Route path="employers" element={ <Employers /> } />
-        <Route path="services" element={ <Services /> } />
-      </Routes>
-    </div>
+    <>
+      <Navbar />
+        <div className="App">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="applicants" element={<Applicants />} />
+            <Route path="aboutus" element={<AboutUs />} />
+            <Route path="employers" element={<Employers />} />
+            <Route path="services" element={<Services />} />
+          </Routes>
+       </div>
+    </>
   );
 }
 
