@@ -1,0 +1,63 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --primary-color: #9A8478;
+    --primary-color-dark: #653E2F;
+    --primary-color-darker: #212121;
+    --primary-color-light: #FBA92C;
+    --primary-color-lighter: #FFEAD1;
+    --primary-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Lora', serif;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-bold: 500;
+    --fw-bolder: 700;
+  }
+
+  .primary-color {
+    color: var(--primary-color);
+  }
+
+  .primary-color-dark {
+    color: var(--primary-color-dark);
+  }
+
+  .primary-color-darker {
+    color: var(--primary-color-darker);
+  }
+
+  .primary-color-light {
+    color: var(--primary-color-light);
+  }
+
+  .primary-color-lighter {
+    color: var(--primary-color-lighter);
+  }
+
+  .bg-primary-color {
+    background-color: var(--primary-color);
+  }
+
+  .bg-primary-color-dark {
+    background-color: var(--primary-color-dark);
+  }
+
+  .bg-primary-color-darker {
+    background-color: var(--primary-color-darker);
+  }
+
+  .bg-primary-color-light {
+    background-color: var(--primary-color-light);
+  }
+
+  .bg-primary-color-lighter {
+    background-color: var(--primary-color-lighter);
+  }
+
+  .primary-font {
+    font-family: var(--primary-font);
+  }
+
+  .secondary-font {
+    font-family: var(--secondary-font);
+  }
