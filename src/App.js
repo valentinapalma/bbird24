@@ -5,20 +5,22 @@ import Employers from './pages/Employers';
 import Services from './pages/Services';
 import AboutUs from "./pages/AboutUs";
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
       <Navbar />
-        <div className="App">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="applicants" element={<Applicants />} />
-            <Route path="aboutus" element={<AboutUs />} />
-            <Route path="employers" element={<Employers />} />
-            <Route path="services" element={<Services />} />
-          </Routes>
-       </div>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="applicants" element={<Applicants />} />
+          <Route path="aboutus" element={<AboutUs />} />
+          <Route path="employers" element={<Employers />} />
+          <Route path="services" element={<Services />} />
+        </Routes>
+      </div>
+      <Footer />
     </>
   );
 }

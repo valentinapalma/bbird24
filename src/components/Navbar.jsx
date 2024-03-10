@@ -1,21 +1,30 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+import '../style/navbar.css';
+import logo from '../media/logo-mini.png';
 
 const Navbar = () => {
   return (    
-      <div class="hamburger-menu">
-      <input id="menu__toggle" type="checkbox" />
-      <label class="menu__btn" for="menu__toggle">
-        <span></span>
-      </label>
-      <ul class="menu__box">
-        <li><a class="menu__item" href="/">Home</a></li>
-        <li><a class="menu__item" href="applicants">Applicants</a></li>
-        <li><a class="menu__item" href="aboutus">About Us</a></li>
-        <li><a class="menu__item" href="employers">Employers</a></li>
-        <li><a class="menu__item" href="Services">Services</a></li>
-      </ul>
+    <div class="container py-2">
+      <div class="row">
+        <div class="col">
+          <img src={logo} alt="Blackbird Recruitment Logo" width="60" />
+        </div>
+        <div class="col align-self-center">
+          <div class="hamburger-menu float-end">
+            <input id="menu__toggle" type="checkbox" />
+            <label className="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <ul className="menu__box">
+              <li><a className="menu__item" href="/">Home</a></li>
+              <li><a className="menu__item" href="applicants">Applicants</a></li>
+              <li><a className="menu__item" href="aboutus">About Us</a></li>
+              <li><a className="menu__item" href="employers">Employers</a></li>
+              <li><a className="menu__item" href="Services">Services</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
+    </div>
   )
 }
 

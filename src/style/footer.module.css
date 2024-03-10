@@ -1,0 +1,8 @@
+.footer {
+    background: rgb(154,132,120);
+    background: linear-gradient(360deg, rgba(154,132,120,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.footer a {
+    color: var(--primary-color-dark);
+}
