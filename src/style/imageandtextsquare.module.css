@@ -1,0 +1,21 @@
+.imgTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headingBox {
+    display: block;
+    position: relative;
+    top: -25px;
+    background: var(--white);
+    padding: 10px 40px;
+    min-width: 200px;
+    text-align: center;
+    border: 1px solid var(--black);
+    box-shadow: 5px 5px 0 0;
+}
+
+.headingBox p {
+    font-weight: var(--fw-regular);
+}
