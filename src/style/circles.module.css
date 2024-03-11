@@ -1,0 +1,10 @@
+.circleImg {
+    object-fit: cover; 
+    object-position: 50% 50%;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    max-width: '100%';
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}

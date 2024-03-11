@@ -1,4 +1,4 @@
-export default function Text({ heading, lead, paragraph }) {
+const Text = ({ heading, lead, paragraph }) => {
     return (
         <>
             {heading ? <h2 class="mb-3">{heading}</h2> : null}
@@ -7,3 +7,5 @@ export default function Text({ heading, lead, paragraph }) {
         </>
     );
 }
+
+export default Text;

@@ -1,9 +1,11 @@
-function Home() {
+import Hero from '../components/Hero';
+
+const Home = () => {
     return (
       <div className="container" style={{paddingTop: "80px", height: "500px"}}>
         <div className="row">
             <div className="col">
-                <h1>Blackbird Recruitment</h1>
+                <Hero />
             </div>
         </div>
       </div>
