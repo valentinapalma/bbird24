@@ -16,3 +16,7 @@ a {
   font-weight: var(--fw-bolder);
   color: var(--primary-color-darker);
 }
+
+img {
+  max-width: 100%;
+}

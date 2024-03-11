@@ -1,0 +1,7 @@
+.squareImg {
+    min-height: 600px;
+    object-fit: cover; 
+    object-position: 50% 50%;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
