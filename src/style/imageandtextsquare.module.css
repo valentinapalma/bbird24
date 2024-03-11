@@ -12,8 +12,8 @@
     padding: 10px 40px;
     min-width: 200px;
     text-align: center;
-    border: 1px solid var(--black);
-    box-shadow: 5px 5px 0 0;
+    border: 1px solid var(--primary-color-darker);
+    box-shadow: 5px 5px 0 0 var(--primary-color-darker);
 }
 
 .headingBox p {
