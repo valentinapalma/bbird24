@@ -1,11 +1,11 @@
-import { Routes, Route } from "react-router-dom"
-import Home from "./pages/Home";
-import Applicants from "./pages/Applicants";
-import Employers from "./pages/Employers";
-import Services from "./pages/Services";
-import AboutUs from "./pages/AboutUs";
-import Navbar from "./components/global/Navbar";
-import Footer from "./components/global/Footer";
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Applicants from './pages/Applicants';
+import Employers from './pages/Employers';
+import Services from './pages/Services';
+import AboutUs from './pages/AboutUs';
+import Navbar from './components/global/Navbar';
+import Footer from './components/global/Footer';
 
 function App() {
   return (

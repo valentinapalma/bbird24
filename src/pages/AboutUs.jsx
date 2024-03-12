@@ -1,13 +1,13 @@
 function AboutUs() {
-    return (
-      <div className="container">
-        <div className="row">
-            <div className="col">
-                <h1>About Us</h1>
-            </div>
+  return (
+    <div className="container">
+      <div className="row">
+        <div className="col">
+          <h1>About Us</h1>
         </div>
       </div>
-    );
-  }
-  
-  export default AboutUs;
+    </div>
+  );
+}
+
+export default AboutUs;

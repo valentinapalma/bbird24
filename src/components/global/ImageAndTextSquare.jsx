@@ -10,6 +10,6 @@ const ImageAndTextSquare = ({ imgSrc, altTxt, heading, paragraph }) => {
       <p>{paragraph}</p>
     </div>
   );
-}
+};
 
 export default ImageAndTextSquare;
