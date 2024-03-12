@@ -6,7 +6,7 @@ const Navbar = () => {
     <div class="container py-2">
       <div class="row">
         <div class="col">
-          <img src={logo} alt="Blackbird Recruitment Logo" width="60" />
+          <a href="/"><img src={logo} alt="Blackbird Recruitment Logo" width="60" /></a>
         </div>
         <div class="col align-self-center">
           <div class="hamburger-menu float-end">

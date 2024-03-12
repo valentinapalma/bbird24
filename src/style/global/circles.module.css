@@ -1,12 +1,5 @@
-.circleImg {
-  object-fit: cover;
-  object-position: 50% 50%;
-  border-top-left-radius: 30%;
-  border-bottom-right-radius: 30%;
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-self: center;
+.circleContainer {
+    height: 450px;
 }
 
 .smallCircle {
@@ -33,6 +26,7 @@
     object-position: center;
     border-radius: 50%;
     width: 100%;
+    height: 100%;
 }
 
 @media (max-width: 992px) {
@@ -49,6 +43,10 @@
         height: 350px;
         width: 350px;
     }
+
+    .circleContainer {
+        height: 350px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -60,6 +58,10 @@
     .bigCircle {
         height: 250px;
         width: 250px;
+    }
+
+    .circleContainer {
+        height: 250px;
     }
 }
 
@@ -73,5 +75,9 @@
     .bigCircle {
         height: 200px;
         width: 200px;
+    }
+
+    .circleContainer {
+        height: 200px;
     }
 }
