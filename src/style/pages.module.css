@@ -1,0 +1,11 @@
+/* ---------- */
+/*    HERO    */
+/* ---------- */
+.hero {
+    height: 500px;
+}
+
+.hero img {
+    height: 100%;
+    width: 98%;
+}
