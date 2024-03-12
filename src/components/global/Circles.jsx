@@ -1,12 +1,12 @@
 import styles from '../../style/global/circles.module.css';
 
 //todo: lägg till mer props att ändra backgroundColor
-const Circles = ({ image, imgSrc, altTxt }) => {
+const Circles = ({ imgSrc, altTxt }) => {
   return (
-    <div class="position-relative h-100">
+    <div class={styles.circleContainer + " position-relative"}>
       <span className={styles.smallCircle}></span>
       <span className={styles.bigCircle}>
-        {image ? <img src={imgSrc} alt={altTxt} style={styles.squareImg} /> : null}
+        {imgSrc ? <img src={imgSrc} alt={altTxt} /> : null}
       </span>
     </div>
   );
