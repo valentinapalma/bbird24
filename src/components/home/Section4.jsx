@@ -4,7 +4,7 @@ import talentimg from '../../media/blackbird-recruitment-diverse-talent.webp';
 
 const Section4 = () => {
     return (
-        <section className="container py-5">
+        <section className="container py-5 mb-4">
             <div class="row h-100 align-items-center"> 
                 <div class="col-12 col-lg-5">
                     <Text 

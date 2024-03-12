@@ -4,7 +4,7 @@ import hrimg from '../../media/blackbird-recruitment-human-resources.webp';
 
 const Section2 = () => {
     return (
-        <section className="container my-5">
+        <section className="container py-5">
             <div className="row mb-5">
                 <div className="col-12 text-center">
                     <h2 className="h1">We are here for...</h2>
