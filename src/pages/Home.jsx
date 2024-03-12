@@ -7,7 +7,6 @@ const Home = () => {
     <>
       <Hero />
       <Section1 />
-      {/* <Banner heading="Django" lead="my baby" paragraph="pumpkin" paragraph2="LUV" /> */}
     </>
   );
 };
