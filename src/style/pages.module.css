@@ -20,6 +20,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .hero {
+    height: 480px;
+  }
+
   .hero h1 {
     font-size: 45px;
   }
@@ -29,6 +33,10 @@
 }
 
 @media screen and (max-width: 500px) {
+  .hero {
+    height: 400px;
+  }
+
   .hero h1 {
     font-size: 35px;
   }
@@ -38,6 +46,9 @@
 }
 
 @media screen and (max-width: 395px) {
+  .hero {
+    height: 300px;
+  }
   .hero h1 {
     font-size: 25px;
   }

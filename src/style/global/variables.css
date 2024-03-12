@@ -6,6 +6,8 @@
   --primary-color-darker: #212121;
   --primary-color-light: #fba92c;
   --primary-color-lighter: #ffead1;
+  --primary-color-opacity: rgba(154, 132, 120, 30%);
+  --primary-color-dark-opacity: rgba(101, 62, 47, 30%);
   --primary-font: 'Montserrat', sans-serif;
   --secondary-font: 'Lora', serif;
   --fw-light: 300;
