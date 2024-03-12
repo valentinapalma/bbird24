@@ -5,7 +5,7 @@
 }
 
 .leftCircle {
-    background-color: --primary-color-opacity;
+    background-color: var(--primary-color-opacity);
     width: 500px;
     height: 500px;
     border-radius: 50%;
@@ -17,7 +17,7 @@
 }
 
 .rightCircle {
-    background-color: --primary-color-dark-opacity;
+    background-color: var(--primary-color-dark-opacity);
     width: 400px;
     height: 400px;
     border-radius: 50%;

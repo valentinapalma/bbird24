@@ -1,6 +1,4 @@
 .button {
-    margin-left: 400px;
-    margin-top: 200px;
     background-color: var(--primary-color-light);
     color: var(--black);
     padding: 10px 25px;
@@ -10,6 +8,11 @@
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     font-weight: 500;
+    margin-top: 30px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.9;
+    transition: 0.3s;
 }
 
 .button::after {
@@ -17,4 +20,10 @@
     margin-left: 10px;
     position: relative;
     top: 2px;
+}
+
+a.button:hover {
+   background-color: var(--primary-color-lighter);
+   color: var(--black);
+   opacity: 1;
 }

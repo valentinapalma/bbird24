@@ -1,8 +1,8 @@
 import styles from '../../style/global/button.module.css';
 
-const Button = ({ label }) => {
+const Button = ({ label, link }) => {
   return (
-        <button className={styles.button}>{label}</button>
+        <a className={styles.button} href={link}>{label}</a>
   );
 };
 
