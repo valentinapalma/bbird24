@@ -9,3 +9,27 @@
     height: 100%;
     width: 98%;
 }
+
+.hero h1 {
+    font-size: 60px;
+}
+
+.hero p {
+    font-size: 28px;
+    font-family: primary-font;
+}
+
+@media screen and (max-width: 767px) {
+    .hero h1 {font-size: 45px;}
+    .hero p {font-size: 20px;}
+  }
+
+@media screen and (max-width: 500px) {
+    .hero h1 {font-size: 35px;}
+    .hero p {font-size: 16px;}
+}
+
+@media screen and (max-width: 395px) {
+    .hero h1 {font-size: 25px;}
+    .hero p {font-size: 16px;}
+  }
