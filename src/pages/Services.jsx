@@ -1,13 +1,13 @@
 function Services() {
-    return (
-      <div className="container">
-        <div className="row">
-            <div className="col">
-                <h1>Services</h1>
-            </div>
+  return (
+    <div className="container">
+      <div className="row">
+        <div className="col">
+          <h1>Services</h1>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
+}
 
-  export default Services;
+export default Services;

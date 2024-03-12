@@ -1,29 +1,29 @@
 .circleImg {
-    object-fit: cover; 
-    object-position: 50% 50%;
-    border-top-left-radius: 30%;
-    border-bottom-right-radius: 30%;
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-self: center;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
 .smallCircle {
-    height: 300px;
-    width: 300px; 
-    border-radius: 50%; 
-    position: absolute;
-    top: 120px;
-    right: 220px;
-    background-color: var(--primary-color);
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: 120px;
+  right: 220px;
+  background-color: var(--primary-color);
 }
 
 .bigCircle {
-    height: 400px; 
-    width: 400px; 
-    border-radius: 50%; 
-    position: absolute; 
-    right: 0;
-    background-color: #C4A484;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  background-color: #c4a484;
 }

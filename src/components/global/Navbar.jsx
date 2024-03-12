@@ -2,7 +2,7 @@ import '../../style/global/navbar.css';
 import logo from '../../media/logo-mini.png';
 
 const Navbar = () => {
-  return (    
+  return (
     <div class="container py-2">
       <div class="row">
         <div class="col">
@@ -15,19 +15,37 @@ const Navbar = () => {
               <span></span>
             </label>
             <ul className="menu__box">
-              <li><a className="menu__item" href="/">Home</a></li>
-              <li><a className="menu__item" href="applicants">Applicants</a></li>
-              <li><a className="menu__item" href="aboutus">About Us</a></li>
-              <li><a className="menu__item" href="employers">Employers</a></li>
-              <li><a className="menu__item" href="Services">Services</a></li>
+              <li>
+                <a className="menu__item" href="/">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a className="menu__item" href="applicants">
+                  Applicants
+                </a>
+              </li>
+              <li>
+                <a className="menu__item" href="aboutus">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a className="menu__item" href="employers">
+                  Employers
+                </a>
+              </li>
+              <li>
+                <a className="menu__item" href="Services">
+                  Services
+                </a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Navbar;
-
-
