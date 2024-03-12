@@ -1,5 +1,5 @@
-import '../style/navbar.css';
-import logo from '../media/logo-mini.png';
+import '../../style/global/navbar.css';
+import logo from '../../media/logo-mini.png';
 
 const Navbar = () => {
   return (    

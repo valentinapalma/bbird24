@@ -1,14 +1,11 @@
-import Hero from '../components/Hero';
-
+import Hero from '../components/home/Hero';
+import Section1 from '../components/home/Section1';
 const Home = () => {
     return (
-      <div className="container" style={{paddingTop: "80px", height: "500px"}}>
-        <div className="row">
-            <div className="col">
-                <Hero />
-            </div>
-        </div>
-      </div>
+      <> 
+        <Hero />
+        <Section1 />
+      </>
     );
   }
   

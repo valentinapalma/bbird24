@@ -1,6 +1,6 @@
-import bird from '../media/bird.gif';
-import Text from '../components/Text';
-import Circles from '../components/Circles';
+import bird from '../../media/bird.gif';
+import Text from '../global/Text';
+import Circles from '../global/Circles';
 
 const Hero = () => {
     return (
