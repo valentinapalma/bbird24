@@ -1,6 +1,6 @@
-import styles from '../style/footer.module.css';
-import birdgif from '../media/bird.gif';
-import linkedin from '../media/linkedin.svg';
+import styles from '../../style/global/footer.module.css';
+import birdgif from '../../media/bird.gif';
+import linkedin from '../../media/linkedin.svg';
 
 const Footer = () => {
   return (    

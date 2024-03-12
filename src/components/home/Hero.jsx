@@ -1,7 +1,7 @@
-import bird from '../media/bird.gif';
-import Text from '../components/Text';
-import Circles from '../components/Circles';
-import styles from '../style/pages.module.css';
+import bird from '../../media/bird.gif';
+import Text from '../global/Text';
+import Circles from '../global/Circles';
+import styles from '../../style/pages.module.css';
 
 const Hero = () => {
     return (

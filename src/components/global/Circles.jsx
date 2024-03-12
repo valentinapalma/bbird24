@@ -1,4 +1,4 @@
-import styles from '../style/circles.module.css';
+import styles from '../../style/global/circles.module.css';
 
 //todo: lägg till mer props att ändra backgroundColor
 const Circles = ({ image, imgSrc, altTxt }) => {
