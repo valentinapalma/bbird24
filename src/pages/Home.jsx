@@ -1,15 +1,15 @@
 import Hero from '../components/home/Hero';
 import Section1 from '../components/home/Section1';
-import Banner from '../components/global/Banner';
+import Section2 from '../components/home/Section2';
 
 const Home = () => {
-  return (
-    <>
-      <Hero />
-      <Section1 />
-      {/* <Banner heading="Django" lead="my baby" paragraph="pumpkin" paragraph2="LUV" /> */}
-    </>
-  );
-};
-
-export default Home;
+    return (
+      <> 
+        <Hero />
+        <Section1 />
+        <Section2 />
+      </>
+    );
+  }
+  
+  export default Home;
