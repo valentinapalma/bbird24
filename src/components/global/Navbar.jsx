@@ -9,7 +9,7 @@ const Navbar = () => {
           <a href="/"><img src={logo} alt="Blackbird Recruitment Logo" width="80" /></a>
         </div>
         <div class="col align-self-center">
-          <div class="hamburger-menu float-end">
+          <div class="hamburger-menu">
             <input id="menu__toggle" type="checkbox" />
             <label className="menu__btn" for="menu__toggle">
               <span></span>
