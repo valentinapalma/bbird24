@@ -11,12 +11,19 @@
     margin-top: 80px;
     text-align: center;
 }
-a {
+
+.textAndImageContainer a {
     opacity: 0.9;
     transition: 0.3s;
 }
 
-a:hover {
+.textAndImageContainer a:hover {
     color: var(--primary-color);
     opacity: 1;
+}
+
+.textAndImageContainer a:after {
+    content: url('../media/arrow.svg');
+    margin-left: 10px;
+    position: relative;
 }
