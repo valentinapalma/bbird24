@@ -1,5 +1,9 @@
 @import './style/global/variables.css';
 
+#root {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-family: var(--primary-font);
