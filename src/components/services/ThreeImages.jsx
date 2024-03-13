@@ -11,15 +11,14 @@ const ThreeImages = () => {
     const [showMoreSOS, setShowMoreSOS] = useState(false);
 
   return (
-    <section class="container py-5 mb-lg-5" id="threeimages" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+    <section class="container py-3 py-lg-5 mb-lg-5" id="threeimages" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
       <div className="row">
-        <div className={styles.firstImg + " col-12 col-lg-4"}>
+        <div className="col-12 col-lg-4 mb-4 mb-lg-0">
             <ImageAndTextSquare 
                 imgSrc={diversity} 
                 altTxt="blackbird recruitment - add more" 
                 heading="Diversity Recruitment"  
                 paragraph="We know how important it is to have a diverse workforce and there is still a lot to do regarding diversity and inclusion in the recruitment process."
-                paragraph2=""
             />
             {!showMore && <a className={styles.arrow} onClick={() => setShowMore(true)}>Continue</a>}
             {showMore ? 
@@ -39,7 +38,7 @@ const ThreeImages = () => {
             {showMore && <a className={`${styles.arrow} ${styles.arrowUp}`} onClick={() => setShowMore(false)}>Less</a>}
 
         </div>
-        <div className={styles.secondImg +  " col-12 col-lg-4"}>
+        <div className="col-12 col-lg-4 mb-4 mb-lg-0">
             <ImageAndTextSquare 
                 imgSrc={partial} 
                 altTxt="blackbird recruitment - add more" 
@@ -58,7 +57,7 @@ const ThreeImages = () => {
             } 
             {showMorePAS && <a className={`${styles.arrow} ${styles.arrowUp}`}  onClick={() => setShowMorePAS(false)}>Less</a>}
         </div>
-        <div className={styles.thirdImg + " col-12 col-lg-4"}>
+        <div className="col-12 col-lg-4">
             <ImageAndTextSquare 
                 imgSrc={opinion} 
                 altTxt="blackbird recruitment - add more" 

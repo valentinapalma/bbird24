@@ -7,8 +7,8 @@ const ImageAndTextSquare = ({ imgSrc, altTxt, heading, paragraph, paragraph2 }) 
       <div className={styles.headingBox}>
         <p className="mb-0">{heading}</p>
       </div>
-      <p>{paragraph}</p>
-      <p>{paragraph2}</p>
+      {paragraph ? <p>{paragraph}</p> : null}
+      {paragraph2 ? <p>{paragraph2}</p> : null}
     </div>
   );
 };
