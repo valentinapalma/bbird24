@@ -1,9 +1,9 @@
 .bgcontainer {
-    background-image: url('../media/bbird.jpg'), linear-gradient(rgba(82, 82, 82, 5),rgba(18, 24, 18, 0.5));
+    background-image: url('../media/blackbird-recruitment-employers-bird-contact.webp'), linear-gradient(rgba(82, 82, 82, 5),rgba(18, 24, 18, 0.5));
 }
 
 .parent {
-    background-image: url('../media/bbird.jpg'), linear-gradient(rgba(82, 82, 82, 5),rgba(18, 24, 18, 0.5));
+    background-image: url('../media/blackbird-recruitment-employers-bird-contact.webp'), linear-gradient(rgba(82, 82, 82, 5),rgba(18, 24, 18, 0.5));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

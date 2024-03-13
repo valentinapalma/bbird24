@@ -1,4 +1,4 @@
-import bbird from '../../media/bbirdcoffe.jpeg';
+import bbird from '../../media/blackbird-recruitment-employers-coffe.webp';
 import SquareImage from '../global/SquareImage';
 import Text from '../global/Text';
 

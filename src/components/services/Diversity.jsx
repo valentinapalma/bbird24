@@ -1,7 +1,7 @@
 import SquareImage from '../global/SquareImage';
 import Text from '../global/Text';
 
-import switzerland from '../../media/sch.webp';
+import switzerland from '../../media/blackbird-recruitment-services.webp';
 const Diversity = () => {
   return (
     <section class="container py-5">
