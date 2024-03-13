@@ -15,16 +15,16 @@ const TextAndImage = () => {
         </div>
     </div>
       <div className="row">
-        <div className={styles.firstImg + " col-12 col-lg-4 mb-5 mb-lg-0"}>
+        <div className={styles.firstImg + " col-12 col-lg-4 mb-5 mb-lg-0"} data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
             <ImageAndTextSquare 
                 imgSrc={diversity} 
                 altTxt="blackbird recruitment - diversity recruitment" 
-                heading="Diversity recruitment"  
+                heading="Diversity Recruitment"  
                 paragraph="We know how important it is to have a diverse workforce and there is still a lot to do regarding diversity and inclusion in the recruitment process."
             />
             <HashLink to="/services">Read more</HashLink>
         </div>
-        <div className={styles.secondImg +  " col-12 col-lg-4 mb-5 mb-lg-0"}>
+        <div className={styles.secondImg +  " col-12 col-lg-4 mb-5 mb-lg-0"} data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <ImageAndTextSquare 
                 imgSrc={partial} 
                 altTxt="blackbird recruitment - partial acquistion services" 
@@ -34,7 +34,7 @@ const TextAndImage = () => {
             />
             <HashLink to="/services">Read more</HashLink>
         </div>
-        <div className={styles.thirdImg + " col-12 col-lg-4"}>
+        <div className={styles.thirdImg + " col-12 col-lg-4"} data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
             <ImageAndTextSquare 
                 imgSrc={opinion} 
                 altTxt="blackbird recruitment - second opinion services" 

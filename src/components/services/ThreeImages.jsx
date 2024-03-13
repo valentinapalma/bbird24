@@ -12,7 +12,7 @@ const ThreeImages = () => {
     const [showMoreSOS, setShowMoreSOS] = useState(false);
 
   return (
-    <section class="container py-5" id="threeimages">
+    <section class="container py-5 mb-lg-5" id="threeimages" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
       <div className="row">
         <div className={styles.firstImg + " col-12 col-lg-4"}>
             <ImageAndTextSquare 
