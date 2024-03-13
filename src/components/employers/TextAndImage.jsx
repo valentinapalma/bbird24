@@ -14,20 +14,20 @@ const TextAndImage = () => {
         </div>
     </div>
       <div className="row">
-        <div className={styles.firstImg + " col-12 col-lg-4"}>
+        <div className={styles.firstImg + " col-12 col-lg-4 mb-5 mb-lg-0"}>
             <ImageAndTextSquare 
                 imgSrc={diversity} 
-                altTxt="blackbird recruitment - add more" 
-                heading="DIVERSITY RECRUITMENT"  
+                altTxt="blackbird recruitment - diversity recruitment" 
+                heading="Diversity recruitment"  
                 paragraph="We know how important it is to have a diverse workforce and there is still a lot to do regarding diversity and inclusion in the recruitment process."
             />
             <a href="/">Read more</a>
         </div>
-        <div className={styles.secondImg +  " col-12 col-lg-4"}>
+        <div className={styles.secondImg +  " col-12 col-lg-4 mb-5 mb-lg-0"}>
             <ImageAndTextSquare 
                 imgSrc={partial} 
-                altTxt="blackbird recruitment - add more" 
-                heading="PARTIAL ACQUISITION SERVICES (PAS)" 
+                altTxt="blackbird recruitment - partial acquistion services" 
+                heading="Partial Acquisition Services (PAS)" 
                 paragraph="If you already have a strong Talent Acquisition team, you can outsource only parts of the recruitment process to us."
                 paragraph2="Our ambition is to be as flexible as possible to support you in demanding situations."
             />
@@ -36,8 +36,8 @@ const TextAndImage = () => {
         <div className={styles.thirdImg + " col-12 col-lg-4"}>
             <ImageAndTextSquare 
                 imgSrc={opinion} 
-                altTxt="blackbird recruitment - add more" 
-                heading="SECOND OPINION SERVICES" 
+                altTxt="blackbird recruitment - second opinion services" 
+                heading="Second Opinion Services" 
                 paragraph="Blackbird can consult you as an objective third party in your selection processes. From our knowledge in personal and group dynamics, we can give valuable advise as support for you to select the right candidates."
             />
             <a href="/">Read more</a>

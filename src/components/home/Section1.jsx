@@ -7,8 +7,8 @@ const Section1 = () => {
   return (
     <section class="container py-5">
       <div class="row align-items-center">
-        <div class="col-12 col-lg-6 mb-3 mb-lg-0">
-          <SquareImage imgSrc={img1} altTxt={''} />
+        <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+          <SquareImage imgSrc={img1} altTxt={"Blackbird recruitment - Happy girl with bubblegum"} />
         </div>
         <div class="col-12 col-lg-5 offset-lg-1">
           <Text

@@ -8,7 +8,7 @@ function Applicants() {
     <>
       <ApplicantsHero />
       <ApplicantsIFrame />
-      <div className="pb-5 mb-5">
+      <div className="py-3 py-lg-5 mb-5">
         <Banner 
           heading={"Career consulting"} 
           lead={"We offer career consulting services to give you a better understanding of yourself, knowledge of what drives you, as well as what type of environment that could suit you the most."}

@@ -4,7 +4,7 @@ import Button from '../global/Button';
 
 const ContactUsBanner = ({ heading, lead, paragraph, paragraph2, label }) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.bgcontainer + ' py-5 my-3 my-lg-5'}>
       <div className={styles.parent + ' container'}>
         <div className="row h-100 align-content-center">
           <div className={styles.text + " col-12 text-center"}>

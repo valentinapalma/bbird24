@@ -4,9 +4,9 @@ import img from '../../media/blackbird-recruitment-applicants.webp';
 
 const ApplicantsHero = () => {
     return (
-      <div className="container py-4">
+      <div className="container py-3 py-lg-5">
         <div className="row align-items-center">
-          <div className="col-12 col-lg-6">
+          <div className="col-12 col-lg-6 mb-4 mb-lg-0">
             <SquareImage imgSrc={img} altTxt={"Blackbird Recruitment - applications"} />
           </div>
           <div className="col-12 col-lg-5 offset-lg-1">
