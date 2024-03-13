@@ -6,7 +6,7 @@ const Navbar = () => {
     <div class="container py-2">
       <div class="row">
         <div class="col">
-          <a href="/"><img src={logo} alt="Blackbird Recruitment Logo" width="60" /></a>
+          <a href="/"><img src={logo} alt="Blackbird Recruitment Logo" width="80" /></a>
         </div>
         <div class="col align-self-center">
           <div class="hamburger-menu float-end">
@@ -16,8 +16,8 @@ const Navbar = () => {
             </label>
             <ul className="menu__box">
               <li>
-                <a className="menu__item" href="/">
-                  Home
+                <a className="menu__item" href="employers">
+                  Employers
                 </a>
               </li>
               <li>
@@ -26,18 +26,13 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a className="menu__item" href="aboutus">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a className="menu__item" href="employers">
-                  Employers
-                </a>
-              </li>
-              <li>
                 <a className="menu__item" href="Services">
                   Services
+                </a>
+              </li>
+              <li>
+                <a className="menu__item" href="aboutus">
+                  About Us
                 </a>
               </li>
             </ul>
