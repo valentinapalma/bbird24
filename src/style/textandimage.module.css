@@ -1,5 +1,4 @@
 .firstImg {
-    margin-top: 140px;
     text-align: center;
 }
 
@@ -8,7 +7,6 @@
 }
 
 .thirdImg {
-    margin-top: 80px;
     text-align: center;
 }
 a {
@@ -19,4 +17,14 @@ a {
 a:hover {
     color: var(--primary-color);
     opacity: 1;
+}
+
+@media (min-width: 992px) {
+    .firstImg {
+        margin-top: 140px;
+    }
+
+    .thirdImg {
+        margin-top: 80px;
+    }
 }

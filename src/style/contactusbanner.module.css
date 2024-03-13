@@ -1,7 +1,5 @@
-.container {
+.bgcontainer {
     background-image: url('../media/bbird.jpg'), linear-gradient(rgba(82, 82, 82, 5),rgba(18, 24, 18, 0.5));
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .parent {
@@ -10,10 +8,15 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
-    opacity: 0.8;
     height: 450px;
 }
 
 .text {
     color: var(--primary-color-lighter);
+}
+
+@media (min-width: 992px) {
+    .bgcontainer {
+        margin: 100px 0 !important;
+    }
 }

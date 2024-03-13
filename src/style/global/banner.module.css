@@ -25,3 +25,19 @@
     top: 0px;
     position: absolute;
 }
+
+@media (max-width: 500px) {
+    .parent {
+        height: 390px;
+    }
+
+    .leftCircle {
+        width: 320px;
+        height: 320px;
+        bottom: 30px;
+    }
+    .rightCircle {
+        width: 290px;
+        height: 290px;
+    }
+}

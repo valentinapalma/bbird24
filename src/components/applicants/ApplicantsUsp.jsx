@@ -7,7 +7,7 @@ import styles from '../../style/pages.module.css';
 
 const ApplicantsUsp = () => {
     return (
-      <div className="container pb-5 mb-5">
+      <div className="container pb-5 mb-md-5">
         <div className="row">
             <div className="col text-center">
                 <h2 className="h1 mb-4">Be blackbird</h2>
