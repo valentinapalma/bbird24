@@ -1,4 +1,4 @@
-import styles from '../style/imageandtextsquare.module.css';
+import styles from '../../style/global/imageandtextsquare.module.css';
 
 const ImageAndTextSquare = ({ imgSrc, altTxt, heading, paragraph }) => {
   return (
