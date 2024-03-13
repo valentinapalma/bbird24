@@ -1,6 +1,6 @@
-import styles from '../style/imageandtextsquare.module.css';
+import styles from '../../style/global/imageandtextsquare.module.css';
 
-const ImageAndTextSquare = ({ imgSrc, altTxt, heading, paragraph }) => {
+const ImageAndTextSquare = ({ imgSrc, altTxt, heading, paragraph, paragraph2 }) => {
   return (
     <div className={styles.imgTextContainer}>
       <img src={imgSrc} alt={altTxt} />
@@ -8,6 +8,7 @@ const ImageAndTextSquare = ({ imgSrc, altTxt, heading, paragraph }) => {
         <p className="mb-0">{heading}</p>
       </div>
       <p>{paragraph}</p>
+      <p>{paragraph2}</p>
     </div>
   );
 };

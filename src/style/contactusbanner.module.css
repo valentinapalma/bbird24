@@ -1,5 +1,7 @@
 .container {
     background-image: url('../media/bbird.jpg'), linear-gradient(rgba(82, 82, 82, 5),rgba(18, 24, 18, 0.5));
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .parent {

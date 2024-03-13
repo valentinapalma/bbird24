@@ -1,0 +1,22 @@
+.firstImg {
+    margin-top: 140px;
+    text-align: center;
+}
+
+.secondImg {
+    text-align: center;
+}
+
+.thirdImg {
+    margin-top: 80px;
+    text-align: center;
+}
+a {
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: var(--primary-color);
+    opacity: 1;
+}
