@@ -1,6 +1,7 @@
 import ContactUsBanner from '../components/employers/ContactUsBanner';
 import Employers from '../components/employers/Employers';
 import TextAndCircles from '../components/employers/TextAndCircles';
+import TextAndImage from '../components/employers/TextAndImage';
 
 const EmployersPage = () => {
   return (
@@ -16,6 +17,7 @@ const EmployersPage = () => {
               heading="We would love to tell you more" 
               paragraph="Contact us and we will be happy to share more details about our offering." 
               label="Contact us now" />
+              <TextAndImage />
           </>
   );
 }
