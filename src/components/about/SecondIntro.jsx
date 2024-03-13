@@ -6,7 +6,7 @@ const SecondIntro = () => {
     return (
       <div className="container py-5 mb-md-5">
         <div className="row align-items-center">
-            <div className="col-12 col-lg-5 order-2 order-lg-1">
+            <div className="col-12 col-lg-5 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
                 <Text 
                     heading={"Freedom"}
                     lead={"More than the Blackbird being the national bird of our home country Sweden, and the fact that we love nature; birds stand for communication and freedom."}
@@ -14,7 +14,7 @@ const SecondIntro = () => {
                     paragraph2={"We know it becuse we feel it every day."}
                 />
             </div>
-            <div className="col-12 col-lg-6 offset-lg-1 order-1 order-lg-2 mb-4 mb-lg-0">
+            <div className="col-12 col-lg-6 offset-lg-1 order-1 order-lg-2 mb-4 mb-lg-0" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
                 <SquareImage imgSrc={p} altTxt={"Evelyn Palma - one of the founders of Blackbird Recruitment"} />
             </div>
         </div>
