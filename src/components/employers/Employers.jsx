@@ -4,8 +4,8 @@ import Text from '../global/Text';
 
 const Employers = () => {
   return (
-    <section class="container py-3 py-md-5">
-      <div class="row align-items-center">
+    <section className="container py-3 py-md-5">
+      <div className="row align-items-center">
         <div className='col-12 col-lg-6 mb-4 mb-lg-0'>
           <SquareImage imgSrc={employers} altTxt="blackbird recruitment - desktop mobile plants" />
         </div>

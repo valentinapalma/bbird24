@@ -14,16 +14,16 @@ const ApplicantsUsp = () => {
             </div>
         </div>
         <div className="row">
-            <div className={styles.applicantsUsp + " col-12 col-md-6 col-lg-3"}>
+            <div className={styles.applicantsUsp + " col-12 col-md-6 col-lg-3"} data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                 <ImageAndTextSquare imgSrc={img2} heading={"Brave"}/>
             </div>
-            <div className={styles.applicantsUsp + " col-12 col-md-6 col-lg-3"}>
+            <div className={styles.applicantsUsp + " col-12 col-md-6 col-lg-3"} data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
                 <ImageAndTextSquare imgSrc={img4} heading={"Inclusive"}/>
             </div>
-            <div className={styles.applicantsUsp + " col-12 col-md-6 col-lg-3"}>
+            <div className={styles.applicantsUsp + " col-12 col-md-6 col-lg-3"} data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
                 <ImageAndTextSquare imgSrc={img3} heading={"Respectful"}/>
             </div>
-            <div className={styles.applicantsUsp + " col-12 col-md-6 col-lg-3"}>
+            <div className={styles.applicantsUsp + " col-12 col-md-6 col-lg-3"} data-aos="fade-up" data-aos-delay="900" data-aos-duration="1000">
                 <ImageAndTextSquare imgSrc={img1} heading={"Dedicated"}/>
             </div>
         </div>

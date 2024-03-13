@@ -6,10 +6,10 @@ const ApplicantsHero = () => {
     return (
       <div className="container py-3 py-lg-5">
         <div className="row align-items-center">
-          <div className="col-12 col-lg-6 mb-4 mb-lg-0">
+          <div className="col-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
             <SquareImage imgSrc={img} altTxt={"Blackbird Recruitment - applications"} />
           </div>
-          <div className="col-12 col-lg-5 offset-lg-1">
+          <div className="col-12 col-lg-5 offset-lg-1" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
             <Text 
                 heading={"Applications"} 
                 lead={"We understand that finding a new job that suits you can be difficult. Blackbird helps to guide you in the right direction."}
