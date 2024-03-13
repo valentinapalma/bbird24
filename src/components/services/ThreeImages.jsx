@@ -5,7 +5,6 @@ import partial from '../../media/partial.webp';
 import opinion from '../../media/opinion.webp';
 import { useState } from "react";
 
-// TODO: fixa read more länkarna till respektive sektion/sida
 const ThreeImages = () => {
     const [showMore, setShowMore] = useState(false);
     const [showMorePAS, setShowMorePAS] = useState(false);
