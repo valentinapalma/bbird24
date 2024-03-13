@@ -8,6 +8,7 @@ const FirstIntro = () => {
         <div className="row align-items-center">
             <div className="col-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
                 <SquareImage imgSrc={ev} altTxt={"Evelyn Palma - one of the founders of Blackbird Recruitment"} />
+                <figcaption className="small mt-1 fw-bold">Evelyn Palma, co-founder of Blackbird Recruitment®</figcaption>
             </div>
             <div className="col-12 col-lg-5 offset-lg-1" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
                 <Text 

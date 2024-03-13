@@ -20,13 +20,13 @@ const ThreeImages = () => {
                 heading="Diversity Recruitment"  
                 paragraph="We know how important it is to have a diverse workforce and there is still a lot to do regarding diversity and inclusion in the recruitment process."
             />
-            {!showMore && <a className={styles.arrow} onClick={() => setShowMore(true)}>Continue</a>}
+            {!showMore && <a className={styles.arrow} onClick={() => setShowMore(true)}>Expand</a>}
             {showMore ? 
             <>
             <p>Companies with high levels of gender, racial and ethnic diversity are more likely to report above-average financial returns; 25% more for gender diversity and 36% more for racial and ethnic diversity according to McKinsey. On top of that, a working environment filled with employees of different backgrounds, skills, experiences, and knowledge will increase innovative and creative ideas.</p>    
             <p>Our alternative recruitment process focuses on diversity and limits bias when evaluating candidates. Instead of letting your decision get impacted by conscious and unconscious biases, diversity recruitment is about making sure that you evaluate candidates based on what matters – their talents, skills, and motivation.</p>
             <p>Through this process we hope to contribute to a fairer marketplace for our candidates, and to help our clients to act today for the future.
-                Hiring diverse talent is an important step but it is not enough—it’s the inclusion in the workplace and the company culture that shapes whether people remain and thrive.
+                Hiring diverse talent is an important step but it is not enough—it's the inclusion in the workplace and the company culture that shapes whether people remain and thrive.
             </p>
             <p>
                 Contact us to hear more about this responsible way of recruiting
@@ -42,11 +42,11 @@ const ThreeImages = () => {
             <ImageAndTextSquare 
                 imgSrc={partial} 
                 altTxt="blackbird recruitment - add more" 
-                heading="Partial Acquistition SERVICES (PAS)" 
+                heading="Partial Acquistition Services (PAS)" 
                 paragraph="If you already have a strong Talent Acquisition team, you can outsource only parts of the recruitment process to us."
                 paragraph2="Our ambition is to be as flexible as possible to support you in demanding situations."
             />
-            {!showMorePAS && <a className={styles.arrow} onClick={() => setShowMorePAS(true)}>Continue</a>}
+            {!showMorePAS && <a className={styles.arrow} onClick={() => setShowMorePAS(true)}>Expand</a>}
             {
                 showMorePAS ? 
                 <>
@@ -64,7 +64,7 @@ const ThreeImages = () => {
                 heading="Second Opinion Services" 
                 paragraph="Blackbird can consult you as an objective third party in your selection processes. From our knowledge in personal and group dynamics, we can give valuable advise as support for you to select the right candidates."
             />
-            {!showMoreSOS && <a className={styles.arrow} onClick={() => setShowMoreSOS(true)}>Continue</a>}
+            {!showMoreSOS && <a className={styles.arrow} onClick={() => setShowMoreSOS(true)}>Expand</a>}
             {
                 showMoreSOS ? 
                 <>
