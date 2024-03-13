@@ -7,7 +7,7 @@ import opinion from '../../media/opinion.webp';
 // TODO: fixa read more länkarna till respektive sektion/sida
 const TextAndImage = () => {
   return (
-    <section class="container py-5">
+    <section className="container py-5">
     <div className="row mb-5">
         <div className="col-12 text-center">
             <h2 className="h1">We are here for...</h2>

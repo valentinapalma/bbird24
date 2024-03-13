@@ -5,11 +5,11 @@ import talentimg from '../../media/blackbird-recruitment-diverse-talent.webp';
 const Section4 = () => {
     return (
         <section className="container py-5 mb-lg-4">
-            <div class="row h-100 align-items-center"> 
-                <div class="col-12 col-lg-6 offset-lg-1 order-lg-2 mb-3 mb-lg-0">
+            <div className="row h-100 align-items-center"> 
+                <div className="col-12 col-lg-6 offset-lg-1 order-lg-2 mb-3 mb-lg-0" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
                     <CircleImage imgSrc={talentimg} altTxt={"Blackbird Recruitment - we are here for diverse talent."}/>
                 </div>
-                <div class="col-12 col-lg-5 order-lg-1">
+                <div className="col-12 col-lg-5 order-lg-1" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
                     <Text 
                         heading={"Diverse Talent"} 
                         lead={"Finding a new job is not easy, whether you are actively or passively looking, we know that you will need to spend a lot of time in your applications."}
