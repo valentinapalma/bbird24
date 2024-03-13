@@ -20,6 +20,13 @@ h6 {
 a {
   font-weight: var(--fw-bolder);
   color: var(--primary-color-darker);
+  transition: all .3s ease-in-out;
+}
+
+a:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: all .3s ease-in-out;
 }
 
 .lead {
