@@ -6,7 +6,7 @@ import Banner from '../components/global/Banner';
 function AboutUs() {
   return (
     <>
-      <div className="py-3 py-md-5">
+      <div className="py-3 py-md-5" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
         <Banner 
           heading={"Our story."} 
           lead={"Most positive experiences in life are linked to the people we are surrounded by."} 
