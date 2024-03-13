@@ -1,4 +1,4 @@
-import employers from '../../media/employers.jpg';
+import bbird from '../../media/bbirdcoffe.jpeg';
 import SquareImage from '../global/SquareImage';
 import Text from '../global/Text';
 
@@ -7,7 +7,7 @@ const Employers = () => {
     <section className="container py-3 py-md-5">
       <div className="row align-items-center">
         <div className='col-12 col-lg-6 mb-4 mb-lg-0' data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
-          <SquareImage imgSrc={employers} altTxt="blackbird recruitment - desktop mobile plants" />
+          <SquareImage imgSrc={bbird} altTxt="blackbird recruitment - desktop mobile plants" />
         </div>
         <div className='col-12 col-lg-5 offset-lg-1' data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
             <Text 
