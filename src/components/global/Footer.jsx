@@ -25,7 +25,7 @@ const Footer = () => {
             rel="nofollow"
             title="Connect via our LinkedIn page"
           >
-            <img src={linkedin} alt="image of linkedin logo" width="50" />
+            <img src={linkedin} alt="linkedin logo" width="50" />
           </a>
           <p className="small mt-5">Blackbird Recruitment®, 2024.</p>
         </div>
