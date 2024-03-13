@@ -4,12 +4,12 @@ import Text from '../global/Text';
 
 const Employers = () => {
   return (
-    <section class="container py-5">
-      <div class="row align-items-center">
-        <div className='col-12 col-lg-5'>
+    <section className="container py-3 py-md-5">
+      <div className="row align-items-center">
+        <div className='col-12 col-lg-6 mb-4 mb-lg-0'>
           <SquareImage imgSrc={employers} altTxt="blackbird recruitment - desktop mobile plants" />
         </div>
-        <div className='col-12 col-lg-6 offset-lg-1'>
+        <div className='col-12 col-lg-5 offset-lg-1'>
             <Text 
                 heading="Our main service is focused on recruitment and talent management." 
                 lead="We know that the success of any business centers around its people. Therefore, getting the hiring process right is essential." 

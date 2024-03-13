@@ -5,12 +5,12 @@ import img1 from '../../media/blackbird-recruitment-girl-bubblegum.jpg';
 
 const Section1 = () => {
   return (
-    <section class="container py-5">
-      <div class="row align-items-center">
-        <div class="col-12 col-lg-6 mb-3 mb-lg-0">
-          <SquareImage imgSrc={img1} altTxt={''} />
+    <section className="container py-5" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+      <div className="row align-items-center">
+        <div className="col-12 col-lg-6 mb-4 mb-lg-0">
+          <SquareImage imgSrc={img1} altTxt={"Blackbird recruitment - Happy girl with bubblegum"} />
         </div>
-        <div class="col-12 col-lg-5 offset-lg-1">
+        <div className="col-12 col-lg-5 offset-lg-1">
           <Text
             heading={'We are driven by our passion for people.'}
             lead={

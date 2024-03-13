@@ -5,17 +5,17 @@ import linkedin from '../../media/linkedin.svg';
 const Footer = () => {
   return (
     <footer className={styles.footer + ' container-fluid'}>
-      <div class="row">
-        <div class="col text-center">
+      <div className="row">
+        <div className="col text-center">
           <img src={birdgif} alt="gif of a bird flying" width="200" />
-          <h3 class="mb-3">Want to hear more over a cup of coffee?</h3>
+          <h3 className="mb-3">Want to hear more over a cup of coffee?</h3>
           <p>
-            <a href="tel:0041447208000" title="Let's chat over a cup of coffee" class="text-decoration-none">
+            <a href="tel:0041447208000" title="Let's chat over a cup of coffee" className="text-decoration-none">
               +41 (0) 44 720 80 00
             </a>
           </p>
           <p>
-            <a href="mailto:info@bbird.ch" title="Email us for more information" class="text-decoration-none">
+            <a href="mailto:info@bbird.ch" title="Email us for more information" className="text-decoration-none">
               info@bbird.ch
             </a>
           </p>
@@ -27,7 +27,7 @@ const Footer = () => {
           >
             <img src={linkedin} alt="image of linkedin logo" width="50" />
           </a>
-          <p class="small mt-5">Blackbird Recruitment®, 2024.</p>
+          <p className="small mt-5">Blackbird Recruitment®, 2024.</p>
         </div>
       </div>
     </footer>

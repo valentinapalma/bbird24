@@ -1,7 +1,13 @@
 .squareImg {
-  min-height: 600px;
+  min-height: 450px;
   object-fit: cover;
   object-position: 50% 50%;
   border-top-left-radius: 150px;
   border-bottom-right-radius: 150px;
 }
+
+@media (min-width: 776px) {
+  .squareImg {
+    min-height: 600px;
+  }
+} 
