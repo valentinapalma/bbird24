@@ -35,7 +35,7 @@ const ThreeImages = () => {
             </>
             : null
         }
-            {showMore && <a className={`${styles.arrow} ${styles.arrowUp}`} onClick={() => setShowMore(false)}>Less</a>}
+            {showMore && <a className={`${styles.arrow} ${styles.arrowUp}`} onClick={() => setShowMore(false)}>Collapse</a>}
 
         </div>
         <div className="col-12 col-lg-4 mb-4 mb-lg-0">
@@ -55,7 +55,7 @@ const ThreeImages = () => {
                 </>
                 : null
             } 
-            {showMorePAS && <a className={`${styles.arrow} ${styles.arrowUp}`}  onClick={() => setShowMorePAS(false)}>Less</a>}
+            {showMorePAS && <a className={`${styles.arrow} ${styles.arrowUp}`}  onClick={() => setShowMorePAS(false)}>Collapse</a>}
         </div>
         <div className="col-12 col-lg-4">
             <ImageAndTextSquare 
@@ -75,7 +75,7 @@ const ThreeImages = () => {
                 </>
                 : null
             }
-            {showMoreSOS && <a className={`${styles.arrow} ${styles.arrowUp}`}onClick={() => setShowMoreSOS(false)}>Less</a>}
+            {showMoreSOS && <a className={`${styles.arrow} ${styles.arrowUp}`}onClick={() => setShowMoreSOS(false)}>Collapse</a>}
         </div>
       </div>
     </section>
