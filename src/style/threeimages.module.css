@@ -1,0 +1,12 @@
+.arrow:after {
+    content: url('../media/arrow.svg');
+    margin-left: 10px;
+    position: relative;
+    transform: rotate(90deg);
+    display: inline-block;
+}
+
+.arrowUp:after {
+    transform: rotate(270deg);
+    top: -2px;
+}
